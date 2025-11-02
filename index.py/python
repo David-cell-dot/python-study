@@ -1,0 +1,10 @@
+a ="hello world"
+b = 10
+c =11.22
+d=("geeks," "for", "geeks")
+e = {"Geeks", "for", "Geeks"}
+
+print( a,b,c,d,e)
+
+name001 = "David"
+print(name001)
