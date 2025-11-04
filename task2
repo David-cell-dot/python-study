@@ -1,0 +1,9 @@
+#question 2:Prompt the user for a number either on a form input or the terminal. Depending on whether the number is even or odd, display either “odd” or “even” to the user. Hint: how does an even / odd number react differently when divided by 2
+#prompt the user to enter a number
+number=int(input("enter a number:"))
+#check the number wether is even or odd using modulus operator
+if number% 2 ==0:
+     print("even")
+else:
+    print("odd")
+
