@@ -19,7 +19,7 @@ def format_phone_number(phone):
     elif phone.startswith("7") or phone. startswith("i"):
         return "+254" + phone
     else:
-        return"invalid phone number format"
+        print("invalid phone number format")
     
     
         
