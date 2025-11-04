@@ -3,12 +3,9 @@
 #if a user enters “0112345678”, the program should display “+254112345678”
 # if a user enters “712345678”, the program should display “+254712345678”
 
-
-
-#function to validate and convert the phone number
 def format_phone_number(phone):
     phone=phone.strip().replace(",")
-    if phone .startwith("+254"):
+    if phone.startwith("+254"):
         return phone
     elif phone.startswith("254"):
          return "+" +phone
@@ -16,13 +13,13 @@ def format_phone_number(phone):
         return "+254" + phone[1:]#replace 0 with +254
     elif phone.startswith("01"):
         return "+254" + phone[1:]#Replce 0 with+254
-    elif phone.startswith("7") or phone. startswith("i"):
+    elif phone.startswith("7") or phone. startswith("1"):
         return "+254" + phone
     else:
-        print("invalid phone number format")
+        return"invalid phone number format"
     
     
-        
+
     
     
     
