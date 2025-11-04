@@ -3,6 +3,9 @@
 #if a user enters “0112345678”, the program should display “+254112345678”
 # if a user enters “712345678”, the program should display “+254712345678”
 
+from unittest import result
+
+
 def format_phone_number(phone):
     phone=phone.strip().replace(",")
     if phone.startwith("+254"):
@@ -17,6 +20,10 @@ def format_phone_number(phone):
         return "+254" + phone
     else:
         return"invalid phone number format"
+    
+    user_input=input("enter your number:")
+    result=format_phone_number("user_input")
+    print("formatted number:", results)
     
     
 
