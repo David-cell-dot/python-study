@@ -36,11 +36,11 @@ def determine_grade(average):
     #main program
     def main():
         print(" enter marks of each subject out of 100:")
-        maths=int(input('60:'))
-        eng=int(input("69:"))
-        swa=int(input("79:"))
-        sci=int(input("56"))
-        sos=int(input("87:"))
+        maths=int(input('maths:'))
+        eng=int(input("eng:"))
+        swa=int(input("swa:"))
+        sci=int(input("sci:"))
+        sos=int(input("sos:"))
         total=calculate_total(maths,eng,swa,sci,sos)
         average=calculate_average(total)
         grade=determine_grade(average)
