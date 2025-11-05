@@ -56,8 +56,24 @@ def calculate_nssf(gross):
         nssf=0.06*gross
         return nssf
     
-    #question 17: 
+    #question 17: Continue with the same program and calculate an individual’s NHDF using:
+# i.e NHDF = gross_salary *  0.015
+def calculate_nhdf(gross):
+    """ nhdf=gross*0.015"""
+    return gross*0.015
+print("gross*0.015")
     
+    #question 18:Calculate the taxable income.
+# i.e taxable_income = gross salary - (NSSF + NHDF + NHIF) 
+print("gross aslary")
+print("nssf deduction")
+print("nhif deductions")
+print(" nhdf deductions")
+print("taxable income")
+
+
+#question 19:Continue with the same program and find the person's PAYEE using the taxable income above.
+#Find the Kenya PAYEE Tax Rate using THIS LINK
 
 
 
