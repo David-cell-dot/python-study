@@ -1,6 +1,9 @@
 #Write a program that prompts the user to enter the base and height of a triangle and returns its area.
 
 
+import numbers
+
+
 height=float(input("enter height"))
 base=float(input('enter base area'))
 Area=base*height*0.5
@@ -20,4 +23,13 @@ if numb1%2==0:
     print("even number")
 else:
     print("odd numbers")
+    
+    # using function
+    def get_numbers(even,odd):
+        return numbers
+    if numb2%2<=0:
+        print("even number")
+    else:
+        print("odd numbers")
+        
     
