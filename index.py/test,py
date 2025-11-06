@@ -1,0 +1,4 @@
+def reverse_string(string):
+    return string
+reversed=reverse_string("DAVID")
+print(reversed)
