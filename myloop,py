@@ -1,0 +1,30 @@
+from ast import For
+
+
+for x in range(3):
+    for y in range(1,10):
+        print(y,end=" ")
+
+for i in range(int(2.0)):
+    print(i)
+
+
+
+
+x="abcd"
+for i in range(len(x)):
+    print(i,end=" ")
+
+
+
+adj=["red" ,"big", "tasty"]
+fruits=["apple" ,"cherry" ,"banana"]
+for x in adj:
+    for y in fruits:
+        print(x,y)
+        
+
+        def my_functional(name,location):
+            print("am a boy", " my name is")
+            print(" am kenyan citizen"," born at location")
+    my_functional(name="DAVID", location="Kimama")
