@@ -5,7 +5,7 @@
 
 marks=float(input("enter student marks(1-100)"))
 if marks >=79:
-    print("grde=A")input  
+    print("grde=A")  
 elif marks >=60:
     print("grade B")
 elif marks>=49:

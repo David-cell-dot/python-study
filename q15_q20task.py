@@ -60,7 +60,7 @@ def calculate_nssf(gross):
 # i.e NHDF = gross_salary *  0.015
 def calculate_nhdf(gross):
     """ nhdf=gross*0.015"""
-    return gross*0.015
+    return gross
 print("gross*0.015")
     
     #question 18:Calculate the taxable income.
