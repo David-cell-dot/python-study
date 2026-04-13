@@ -19,3 +19,7 @@ length=20
 width=40
 area=length*width
 print(area)
+#area of a square
+side=10
+area=side*side
+print(area)
